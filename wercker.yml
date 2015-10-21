@@ -8,7 +8,7 @@ build:
         flags: --buildDrafts=true
 deploy:
   steps:
-    - uetchy/gh-pages:
+    - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         domain: www.sjaconsulting.com
         repo: sjaconsulting/sjaconsulting.github.io
