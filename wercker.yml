@@ -11,4 +11,5 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         domain: www.sjaconsulting.com
+        repo: sjaconsulting/sjaconsulting.github.io
         basedir: public
