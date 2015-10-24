@@ -67,13 +67,13 @@ theme = "hugo-creative-theme"
     [[params.services.list]]
       icon = "fa-lock"
       title = "Security"
-      description = "HTTPS encryption, DDoS protection, and intelligent firewall capabilities to keep sites and visitors secure."
+      description = "HTTPS encryption, DDoS protection, and intelligent firewall capabilities to keep websites and visitors secure."
 
 
   # Portfolio modals
 	[params.portfolio.modal]
     client = "Client"
-    date = "Date"
+    date = "Launched"
     category = "Category"
     buttonText = "Close"
 
@@ -88,6 +88,6 @@ theme = "hugo-creative-theme"
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!"
+		description = "Ready to start your next project with us? Give us a call or send us an email detailing your plans and we will get back to you as soon as possible!"
 		phone = "707-267-7752"
 		email = "projects@sjaconsulting.com"
