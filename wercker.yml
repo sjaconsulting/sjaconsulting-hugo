@@ -13,8 +13,8 @@ deploy:
         domain: www.sjaconsulting.com
         repo: sjaconsulting/sjaconsulting.github.io
         path: public
-  after-steps:
-    - seigyo/cloudflare-purge:
+  steps:
+    - seigyo/cloudflare-purge@0.0.3:
         api: $CF_KEY
         email: $CF_EMAIL
         domain: sjaconsulting.com
